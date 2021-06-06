@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:demo:Sensor;1",
+  "@type": "Interface",
+  "displayName": "Thermostat interface model",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "FirmwareVersion",
+      "schema": "string"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "Humidity",
+      "schema": "double"
+    }
+  ]
+}
